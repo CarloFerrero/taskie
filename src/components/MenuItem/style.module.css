@@ -1,0 +1,21 @@
+.listItem {
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0px 30px;
+    font-weight: 500;
+}
+.listItem:hover {
+    background-color: #007bff10;
+    color: #007bff;
+}
+
+.menuIcon {
+    width: 22px;
+    height: 22px;
+}
