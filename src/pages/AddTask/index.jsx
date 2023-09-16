@@ -1,10 +1,8 @@
-import Layout from "../../components/Layout";
-
 const AddTask = () => {
     return (
-      <Layout>
-          AddTask
-      </Layout>
+      <div>
+        <h1>AddTask</h1>
+      </div>
     );
   }
   

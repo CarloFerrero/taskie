@@ -1,23 +1,13 @@
 .container {
+    border: 1px solid #000;
+    border-radius: 10px;
     display: flex;
     height: 100vh;
 }
 
 .main {
+    border: 1px solid #000;
+    border-radius: 10px;
     width: 80%;
-    padding: 30px;
     background-color: #F5F5F5;
-}
-
-@media screen and (max-width: 868px) {
-    .container {
-        display: none;
-    }
-    .safeArea {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
 }

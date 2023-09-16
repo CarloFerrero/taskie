@@ -1,12 +1,11 @@
-import MenuItem from '@components/MenuItem';
 import style from './style.module.css';
 
 const Menu = ({ menuItems }) => {
     return (
         <div className={style.sidebar__menu}>
-            <ul className={style.sidebar__list}>
+            <ul className={style.sideb4ar__list}>
                 {menuItems.map((item) => (
-                    <MenuItem key={item.id} name={item.name} icon={item.icon} />
+                    <li className={style.sidebar__listItem} key={item.key}>{item.name}</li>
                 ))}
             </ul>
         </div>
