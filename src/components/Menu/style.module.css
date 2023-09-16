@@ -16,7 +16,9 @@
 }
 
 .sidebar__list {
-    list-style-type: none;
+    text-decoration: none;
     padding: 0px;
-    margin-top: 30px;
+}
+.sidebar__listItem {
+    padding: 0px;
 }
