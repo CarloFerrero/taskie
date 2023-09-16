@@ -2,9 +2,10 @@ import React from 'react';
 import Sidebar from '@components/Sidebar';
 import SafeArea from '@components/SafeArea';
 import style from './style.module.css';
-import useWindowSize from '../../hook/useWindowSize';
+import useWindowSize from '@hooks/useWindowSize.js';
+import Header from '@components/Header';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, user }) => {
     const windowSize = useWindowSize();
     const isDesktop = windowSize.width >= 968;
     return (
@@ -12,10 +13,14 @@ const Layout = ({ children }) => {
             {isDesktop ? <div className={style.container}>
                 <Sidebar />
                 <div className={style.main}>
-                    {children}
+                    <Header user={user} />
+                    <div className={style.wrapper}>
+                        {children}
+                    </div>
                 </div>
-            </div> : <SafeArea />}
-        </div>
+            </div> : <SafeArea />
+            }
+        </div >
     );
 }
 
