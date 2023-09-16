@@ -7,7 +7,7 @@ import Header from '@components/Header';
 
 const Layout = ({ children, user }) => {
     const windowSize = useWindowSize();
-    const isDesktop = windowSize.width >= 968;
+    const isDesktop = windowSize.width >= 1168;
     return (
         <div>
             {isDesktop ? <div className={style.container}>
