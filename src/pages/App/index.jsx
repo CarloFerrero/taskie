@@ -3,7 +3,7 @@ import styles from './style.module.css';
 import Task from '../../components/Task';
 import { MOCK_DATA } from './MOCK';
 
-const Dashboard = () => {
+const App = () => {
   return (
     <div className={styles.dashboard}>
       <div className={styles.column}>
@@ -61,4 +61,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default App;

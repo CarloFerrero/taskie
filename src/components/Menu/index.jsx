@@ -6,7 +6,7 @@ const Menu = ({ menuItems }) => {
         <div className={style.sidebar__menu}>
             <ul className={style.sidebar__list}>
                 {menuItems.map((item) => (
-                    <MenuItem key={item.id} name={item.name} icon={item.icon} />
+                    <MenuItem key={item.id} name={item.name} icon={item.icon} path={item.path} />
                 ))}
             </ul>
         </div>

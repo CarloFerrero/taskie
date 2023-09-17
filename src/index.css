@@ -38,24 +38,6 @@ body {
   overflow-y: hidden;
 }
 
-/* write a custom css for the scrollbar of all the website */
-/* ::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #88888830;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #88888850;
-} */
-
 ::-webkit-scrollbar {
   display: none;
 }

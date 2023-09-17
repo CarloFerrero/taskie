@@ -5,9 +5,14 @@ import style from './style.module.css';
 import useWindowSize from '@hooks/useWindowSize.js';
 import Header from '@components/Header';
 
-const Layout = ({ children, user }) => {
+const Layout = ({ children }) => {
     const windowSize = useWindowSize();
     const isDesktop = windowSize.width >= 1168;
+    const user = {
+        name: 'John Doe',
+        email: 'john.doe@email.com',
+        avatar: 'https://avatars.githubusercontent.com/u/61538469?v=4'
+      };
     return (
         <div>
             {isDesktop ? <div className={style.container}>
