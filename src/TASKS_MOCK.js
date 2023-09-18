@@ -4,6 +4,7 @@ export const MOCK_DATA = [
         status: 'todo',
         icon: '',
         title: 'User Research',
+        project: 'Sistemi S.r.l',
         excerpt: 'Conduct a user research by conducting online survey and draft  out questionnaires',
         date: '12/12/2020',
         owner: {
@@ -16,6 +17,7 @@ export const MOCK_DATA = [
         status: 'done',
         icon: '',
         title: 'Wireframing',
+        project: 'Sistemi S.r.l',
         excerpt: 'Create wireframes for the application',
         date: '12/12/2020',
         owner: {
@@ -28,6 +30,7 @@ export const MOCK_DATA = [
         status: 'todo',
         icon: '',
         title: 'Prototyping',
+        project: 'Sistemi S.r.l',
         excerpt: 'Create a prototype for the application',
         date: '12/12/2020',
         owner: {
@@ -40,6 +43,7 @@ export const MOCK_DATA = [
         status: 'progress',
         icon: '',
         title: 'User Testing',
+        project: 'Sistemi S.r.l',
         excerpt: 'Test the prototype with the users',
         date: '12/12/2020',
         owner: {
@@ -48,10 +52,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 1,
+        id: 5,
         status: 'todo',
         icon: '',
         title: 'User Research',
+        project: 'Sistemi S.r.l',
         excerpt: 'Conduct a user research by conducting online survey and draft  out questionnaires',
         date: '12/12/2020',
         owner: {
@@ -60,10 +65,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 2,
+        id: 6,
         status: 'done',
         icon: '',
         title: 'Wireframing',
+        project: 'Bitia S.r.l',
         excerpt: 'Create wireframes for the application',
         date: '12/12/2020',
         owner: {
@@ -72,10 +78,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 3,
+        id: 7,
         status: 'todo',
         icon: '',
         title: 'Prototyping',
+        project: 'Bitia S.r.l',
         excerpt: 'Create a prototype for the application',
         date: '12/12/2020',
         owner: {
@@ -84,10 +91,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 4,
+        id: 8,
         status: 'progress',
         icon: '',
         title: 'User Testing',
+        project: 'Bitia S.r.l',
         excerpt: 'Test the prototype with the users',
         date: '12/12/2020',
         owner: {
@@ -96,10 +104,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 1,
+        id: 9,
         status: 'todo',
         icon: '',
         title: 'User Research',
+        project: 'Bitia S.r.l',
         excerpt: 'Conduct a user research by conducting online survey and draft  out questionnaires',
         date: '12/12/2020',
         owner: {
@@ -108,10 +117,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 2,
+        id: 10,
         status: 'done',
         icon: '',
         title: 'Wireframing',
+        project: 'Bitia S.r.l',
         excerpt: 'Create wireframes for the application',
         date: '12/12/2020',
         owner: {
@@ -120,10 +130,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 3,
+        id: 11,
         status: 'todo',
         icon: '',
         title: 'Prototyping',
+        project: 'Bitia S.r.l',
         excerpt: 'Create a prototype for the application',
         date: '12/12/2020',
         owner: {
@@ -132,10 +143,11 @@ export const MOCK_DATA = [
         }
     },
     {
-        id: 4,
+        id: 12,
         status: 'progress',
         icon: '',
         title: 'User Testing',
+        project: 'Bitia S.r.l',
         excerpt: 'Test the prototype with the users',
         date: '12/12/2020',
         owner: {

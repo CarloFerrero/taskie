@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 import Task from '../../components/Task';
-import { MOCK_DATA } from './MOCK';
+import { MOCK_DATA } from '../../TASKS_MOCK';
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
               excerpt={task.excerpt}
               date={task.date}
               owner={task.owner}
+              project={task.project}
             />
           ))}
         </div>
@@ -36,6 +37,7 @@ const App = () => {
                 excerpt={task.excerpt}
                 date={task.date}
                 owner={task.owner}
+                project={task.project}
               />
             ))}
           </div>
@@ -53,6 +55,7 @@ const App = () => {
                 excerpt={task.excerpt}
                 date={task.date}
                 owner={task.owner}
+                project={task.project}
               />
             ))}
           </div>
