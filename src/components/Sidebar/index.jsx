@@ -23,7 +23,7 @@ const Sidebar = () => {
 
     return (
         <div className={style.sidebar}>
-        <img src={viteLogo} className={style.sidebar__logo} alt="Vite logo" />
+        <img src={viteLogo} className={style.sidebar__logo} alt="logo" />
         <Menu menuItems={menuItems} />
         <button className={style.sidebar__button}>Add Task</button>
     </div>
