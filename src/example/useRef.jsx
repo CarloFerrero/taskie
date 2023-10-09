@@ -84,7 +84,9 @@
 
 // Example 3: difference with use state
 import { useState } from "react";
-import { validateEmail, validateName } from "../utils/validateFunction";
+import { 
+    validateEmail
+} from "../utils/validateFunction";
 
 const RefDataExample = () => {
     // Stato per immagazzinare i dati immessi dall'utente

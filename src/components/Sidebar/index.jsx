@@ -12,11 +12,18 @@ import Button from '../Button';
 const Sidebar = () => {
     const menuItems = [
         {
-            name: 'Tasks list',
+            name: 'Dashboard',
             path: '/',
             icon: <BsGrid size={20} />,
             key: 1,
             title: 'Dashboard'
+        },
+        {
+            name: 'Tasks list',
+            path: '/task-list',
+            icon: <BsGrid size={20} />,
+            key: 1,
+            title: 'Task list'
         },
         {
             name: 'Create task',

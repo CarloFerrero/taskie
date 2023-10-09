@@ -7,12 +7,14 @@ import RefDataExample from "./example/useRef"
 import EffectExample from "./example/useEffect"
 import EditTask from "./pages/EditTask"
 import TaskList from "./pages/TaskList"
+import Dashboard from "./pages/Dashboard"
 
 function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<TaskList />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/task-list" element={<TaskList />} />
         <Route path="/create-task" element={<AddTask />} />
         <Route path="/edit-task" element={<EditTask />} />
         <Route path="/example" element={<SchoolAttendance />} />
