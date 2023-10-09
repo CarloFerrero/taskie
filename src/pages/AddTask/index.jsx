@@ -1,8 +1,6 @@
 const AddTask = () => {
     return (
-      <div>
-        <h1>AddTask</h1>
-      </div>
+        <h1>Add Task</h1>
     );
   }
   

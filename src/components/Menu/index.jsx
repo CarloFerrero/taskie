@@ -1,15 +1,19 @@
+import MenuItem from '../MenuItem';
 import style from './style.module.css';
 
 const Menu = ({ menuItems }) => {
     return (
         <div className={style.sidebar__menu}>
-            <ul className={style.sideb4ar__list}>
+            <ul className={style.sidebar__list}>
                 {menuItems.map((item) => (
-                    <li className={style.sidebar__listItem} key={item.key}>{item.name}</li>
+                    <div key={item.key}>
+                        <MenuItem icon={item.icon} name={item.name} path={item.path} title={item.title} />
+                    </div>
                 ))}
             </ul>
         </div>
     );
 }
+
 
 export default Menu;

@@ -1,0 +1,43 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+  }
+
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .userDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .userName {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .userEmail {
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .notificationIcon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

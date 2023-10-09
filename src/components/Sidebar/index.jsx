@@ -1,32 +1,49 @@
-import Menu from "../Menu";
 import style from './style.module.css';
-import viteLogo from '/vite.svg'
+import Logo from '../../assets/logo.svg';
+import Menu from '../Menu';
+
+import { GoTasklist } from 'react-icons/go';
+import { BsGrid } from 'react-icons/bs';
+import { AiOutlineTeam } from 'react-icons/ai';
+import { AiOutlineMessage } from 'react-icons/ai';
+import { FiSettings } from 'react-icons/fi';
+import Button from '../Button';
 
 const Sidebar = () => {
     const menuItems = [
         {
-            name: 'Dashboard',
+            name: 'Tasks list',
             path: '/',
-            key: 1
+            icon: <BsGrid size={20} />,
+            key: 1,
+            title: 'Dashboard'
         },
         {
-            name: 'Tasks',
-            path: '/tasks',
-            key: 2
+            name: 'Create task',
+            path: '/create-task',
+            icon: <AiOutlineTeam size={20} />,
+            key: 3,
+            title: 'Team'
         },
         {
-            name: 'Settings',
-            path: '/settings',
-            key: 3
+            name: 'Edit task',
+            path: '/edit-task',
+            icon: <GoTasklist size={20} />,
+            key: 2,
+            title: 'Projects'
         }
-        ];
+    ];
 
     return (
         <div className={style.sidebar}>
-        <img src={viteLogo} className={style.sidebar__logo} alt="logo" />
-        <Menu menuItems={menuItems} />
-        <button className={style.sidebar__button}>Add Task</button>
-    </div>
+            <img src={Logo} className={style.sidebar__logo} alt="logo" />
+            <Menu menuItems={menuItems} />
+            <div className={style.sidebar__footer}>
+                <Button variant="primary" title="Add Task">
+                    Add task
+                </Button>
+            </div>
+        </div>
     );
 }
 

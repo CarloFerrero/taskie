@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.main {
+    width: 82%;
+    background-color: #F5F5F5;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+    background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 868px) {
+    /* .container {
+        display: none;
+    }
+    .safeArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    } */
+}
